@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CDN.de</title>
+    <title>CDN-AG.de</title>
     <link rel="stylesheet" href="assets/css/start-main/style.css">
 </head>
 <body>
@@ -20,7 +20,7 @@
             <a href="#">Ihre Daten</a>
             <a href="#">Standorte</a>
             <a href="#">Kontakt</a>
-            <a href="#">Login</a>
+            <a href="../content/login/login.php">Login</a>
         </div>
     </div>
     <div class="main-img">
@@ -43,7 +43,19 @@
         Sind Sie nicht in Deutschland? Kein Problem wir nehmen uns trozdem Zeit und treffen Sie persönlich überall auf der Welt!<br>
     </div>
     <div class="img-code">
-        <img src="assets/img/" class="img-code-img" alt="Bild Programmcode">
+        <img src="assets/img/webp/main-solutions.webp" class="img-code-img" alt="Bild Programmcode">
+    </div>
+    <div class="search-container">
+        <label for="search" class="search-label">Suche:</label>
+        <input type="search" class="search-input" name="search" placeholder="Suchen Sie nach unseren Partnern?" required>
+        <button type="submit" class="search-button">Suchen</button>
+    </div>
+    <div class="search-output">
+
+    </div>
+    <div class="partners">
+        <img src="assets/img/png/p-img-0.png" alt="Partner-Image" class="p-img-0">
+        <img src="assets/img/png/p-img-1.png" alt="Partner-Image" class="p-img-1">
     </div>
 </body>
 </html>
